@@ -1,7 +1,13 @@
 <h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/vishal-garg-b85627224/" target="_blank"> Vishal Garg - aka [superV]</a></h1>
 <h3 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Full+Stack+Developer+%3A)" /> </h3>
 
+<h4 align="center">#Just_superV_Things😎</h4>
+
 - 🌱 Learning Never Stops 🚀
+
+- ⚡ Strong Believe in - Knowledge always empowers you ✌💪
+
+- ⚡ Keep going....🤜🤛 Keep growing...🙌
 
 - 👯 I’m looking to collaborate with other content creators
 
