@@ -1,7 +1,7 @@
-<h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/superv18" target="_blank"> Vishal Garg - aka <b>superV</b></a></h1>
-<h3 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Full+Stack+Developer+%3A)" /> #superV_Coder 🔥🔥 </h3>
+<h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/superv18" target="_blank"> Vishal Garg - aka [superV]</a></h1>
+<h3 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Full+Stack+Developer+%3A)" /> </h3>
 
-<h4 align="center">#Just_superV_Things😎</h4>
+<h4 align="center">#Just_superV_Things😎 #superV_Coder 🔥🔥</h4>
 
 - 🌱 Learning Never Stops 🚀
 
