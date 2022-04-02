@@ -1,0 +1,41 @@
+<!-- Code written by Vishal Garg aka SuperV on 02-Apr-2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qr_Generator_Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>QR Code Generator</h1>
+        <p id="qr_for">Paste a URL or Enter TEXT to Create QR Code</p>
+      </header>
+      <div class="form">
+        <form action="" autocomplete="off">
+          <input
+            type="text"
+            id="Content"
+            placeholder="Enter TEXT Or URl"
+            required
+            name="*"
+          />
+        </form>
+        <button class="qr_btn">Click To Generate QR Code</button>
+        <div class="img_">
+          <img src="" alt="/images/qr_img.png" />
+        </div>
+        <button class="refresh_btn">Click here to Refresh!</button>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img src="/images/VLogo_circle.png" alt="" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

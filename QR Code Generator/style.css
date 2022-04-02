@@ -1,0 +1,84 @@
+/* Code written by Vishal Garg aka SuperV on 02-Apr-2022 */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(49 78 66));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  height: auto;
+  background-color: white;
+  min-width: 410px;
+  border-radius: 7px;
+  padding: 16px 25px;
+  transition: height 0.2s ease;
+}
+
+header h1 {
+  background: -webkit-linear-gradient(#ff1313, #1d8b44);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+header p {
+  font-size: 25px;
+  color: #474747;
+  margin: 15px;
+}
+.container .form {
+  margin: 20px 0px 25px;
+}
+.form :where(button, input),
+.refresh_btn {
+  width: 100%;
+  height: 55px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.form input {
+  font-size: 18px;
+  padding: 0 17px;
+  border: 1px solid #999;
+}
+.form button,
+.refresh_btn {
+  background: linear-gradient(to top, rgb(28 26 26), rgb(30 92 255 / 88%));
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.img_ {
+  border: 1px solid #ccc;
+  padding: 33px 0;
+  pointer-events: none;
+  display: none;
+  border-radius: 5px;
+}
+
+.refresh_btn {
+  display: none;
+}
+.logo img{
+  position: absolute;
+  bottom: 0px; 
+     right: 0px;
+    /* top: 0%;
+    left: 0%; */
+    width: 200px;
+    padding: 5px; 
+     margin: 10px;
+}
+
