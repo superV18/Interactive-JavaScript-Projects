@@ -15,7 +15,6 @@ body {
 .container {
   height: auto;
   background-color: white;
-  min-width: 410px;
   border-radius: 7px;
   padding: 16px 25px;
   transition: height 0.2s ease;
@@ -80,5 +79,61 @@ header p {
     width: 200px;
     padding: 5px; 
      margin: 10px;
+}
+@media screen and (max-width: 990px )  {
+  .logo img {
+   width: 145px;
+  }
+}
+@media screen and (max-width: 605px )  {
+  .logo img {
+   width: 145px;
+  }
+  .container{
+    width: 400px;
+  }
+  header h1{
+    font-size: 35px;
+     }
+}
+@media screen and (max-width: 500px )  {
+  .logo img {
+   width: 140px;
+  }
+  .container{
+    width: 300px;
+  }
+  header h1{
+ font-size: 25px;
+  }
+} 
+ @media screen and (max-width: 430px )  {
+  .logo img {
+   width: 115px;
+  }
+  .container{
+    width: 220px;
+  }
+  header h1{
+ font-size: 20px;
+  }
+  header p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 330px )  {
+  .logo img {
+   width: 90px;
+  }
+  .container{
+    width: 150px;
+  }
+  header h1{
+ font-size: 20px;
+  }
+  
+  header p {
+    font-size: 10px;
+  }
 }
 
