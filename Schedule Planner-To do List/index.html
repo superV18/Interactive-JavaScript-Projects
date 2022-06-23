@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To_Do_List_Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="menu_bar.png" alt="icon" />
+        <input type="text" placeholder="Add a new Task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span
+            id="all"
+            class="active bc1"
+            onclick="showAllTask()"
+            onmouseover="bc(id)"
+            onmouseout="Nobc(id)"
+            >All</span
+          >
+          <span
+            id="pending"
+            onclick="showPendingTask()"
+            onmouseover="bc(id)"
+            onmouseout="Nobc(id)"
+            class="bc1"
+            >Pending</span
+          >
+          <span
+            id="completed"
+            onclick="showCompletedTask()"
+            onmouseover="bc(id)"
+            onmouseout="Nobc(id)"
+            class="bc1"
+            >Completed</span
+          >
+        </div>
+        <button class="clear-btn" onclick="clearData()">Clear All</button>
+      </div>
+      <ul class="task-box">
+        <!-- <li class="task">
+              <label for="1">
+                  <input type="checkbox" id="1">
+                  <p> Renew gym Subcription </p>
+              </label>
+              <div class="settings">
+                  <i class="uil uil-ellipsis-h"></i>
+                  <ul class="task-menu">
+                      <li><i class="uil uil-pen"></i>Edit</li>
+                      <li><i class="uil uil-trash"></i>Delete</li>
+                  </ul>
+              </div>
+          </li> 
+          <li class="task">
+              <label for="1">
+                  <input type="checkbox" id="1">
+                  <p> To play cricket at 5 </p>
+              </label>
+              <div class="settings">
+                  <i class="uil uil-ellipsis-h"></i>
+              </div>
+          </li>
+          <li class="task">
+              <label for="1">
+                  <input type="checkbox" id="1">
+                  <p> make a project on js  </p>
+              </label>
+              <div class="settings">
+                  <i class="uil uil-ellipsis-h"></i>
+              </div>
+          </li>
+          <li class="task">
+              <label for="1">
+                  <input type="checkbox" id="1">
+                  <p> learning some concepts </p>
+              </label>
+              <div class="settings">
+                  <i class="uil uil-ellipsis-h"></i>
+              </div>
+          </li>
+          <li class="task">
+              <label for="1">
+                  <input type="checkbox" id="1">
+                  <p> go to regular checkups </p>
+              </label>
+              <div class="settings">
+                  <i class="uil uil-ellipsis-h"></i>
+              </div>
+          </li> -->
+      </ul>
+    </div>
+    <div class="logo">
+      <img src="VLogo_circle.png" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
