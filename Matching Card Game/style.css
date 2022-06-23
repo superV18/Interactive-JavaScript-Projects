@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(118 0 83);
+}
+.main {
+  padding: 25px;
+  height: 400px;
+  width: 400px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+.cards,
+.card,
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards {
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.cards .card {
+  position: relative;
+  perspective: 800px;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  height: calc(100% / 4 - 10px);
+  width: calc(100% / 4 - 10px);
+}
+.card.shake {
+  animation: shake 0.35s ease-in-out;
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-20px);
+  }
+  40% {
+    transform: translateX(20px);
+  }
+  60% {
+    transform: translateX(-14px);
+  }
+  80% {
+    transform: translateX(14px);
+  }
+}
+.cards .card .view {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+  background: linear-gradient(
+    to bottom,
+    rgb(135, 231, 223),
+    rgb(255, 184, 245)
+  );
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0 8px 9px rgb(144 18 126);
+  transition: transform 0.15s linear;
+  backface-visibility: hidden;
+}
+.card .front-view span {
+  font-size: 40px;
+  color: navy;
+}
+.card .back-view {
+  transform: rotateY(90deg);
+}
+.card.flip .front-view {
+  transform: rotateY(360deg);
+}
+.card.flip .back-view {
+  transform: rotateY(0);
+}
+.card .back-view img {
+  max-width: 45px;
+}
+.refresh{
+  text-align: center;
+}
+.refresh button:hover{
+  background: linear-gradient(
+    to bottom,
+    rgb(7, 25, 24),
+    rgb(255, 184, 245)
+  );
+  color: black;
+}
+.refresh button {
+  
+  cursor: pointer;
+  position: absolute;
+  bottom: 12%;
+  left: 47.5vw;
+  font-size: 1.5em;
+  padding: 4px;
+  border:1px solid rgb(60, 12, 46);
+  border-radius: 8px;
+  color: navy;
+  background: linear-gradient(
+    to bottom,
+    rgb(135, 231, 223),
+    rgb(255, 184, 245)
+  ); 
+
+}
+.logo img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+}
