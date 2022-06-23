@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify_Clone</title>
+  </head>
+ 
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="heading">
+        <h1>Best of 2022 - No Copyright</h1>
+      </div>
+      <div class="firstS songItems">
+        <img src="covers/1.jpg" alt="1" width="60px" height="40px" />
+        <span class="name"> Let me love you!</span>
+        <span class="miniplay">
+          <img src="playing.gif" alt="gif" width="75vw"  class="playingGif1" id="gif0">
+
+          <span>04:45</span>
+          <i id="0" class="fa-regular songItemPlay fa-circle-play"></i>
+        </span>
+      </div>
+      <div class="secondS songItems">
+        <img src="covers/2.jpg" alt="2"width="60px" height="40px" />
+        <span class="name"> Everything for you!</span>
+        <span class="miniplay">
+          <img src="playing.gif" alt="gif" width="75vw"  class="playingGif1" id="gif1">
+
+          <span>05:40</span>
+          <i id="1" class="fa-regular songItemPlay  fa-circle-play"></i>
+        </span>
+      </div>
+
+      <div class="thirdS songItems">
+        <img src="covers/3.jpg" alt="3" width="60px" height="40px" />
+        <span class="name"> You are My World!</span>
+        <span class="miniplay">
+          <img src="playing.gif" alt="gif" width="75vw"  class="playingGif1" id="gif2">
+
+          <span>03:25</span>
+          <i id="2" class="fa-regular songItemPlay fa-circle-play"></i>
+        </span>
+      </div>
+      <div class="fourthS songItems">
+        <img src="covers/4.jpg" alt="4" width="60px" height="40px" />
+        <span class="name"> Baby.. Baby... O yeah!</span>
+        <span class="miniplay">
+          <img src="playing.gif" alt="gif" width="75vw"  class="playingGif1" id="gif3">
+
+          <span>06:15</span>
+          <i id="3" class="fa-regular songItemPlay fa-circle-play"></i>
+        </span>
+      </div>
+      <div class="fifthS songItems">
+        <img  src="covers/10.jpg" alt="5" width="60px" height="40px" />
+        <span class="name"> Hearty vibes! </span>
+       
+        <span class="miniplay">
+          <img src="playing.gif" alt="gif" width="75vw"  class="playingGif1" id="gif4">
+          <span>06:50</span>
+          <i id="4" class="fa-regular songItemPlay fa-circle-play"></i>
+        </span>
+      </div>
+
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100" />
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+        <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" alt="gif" width="100vw" height="43vh" id="playingGif">
+       <marquee id="mymarquee" behavior="" direction="right"> <span id="masterSongName">Everything for you - Justin Beiber</span></marquee>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/8572e7a216.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

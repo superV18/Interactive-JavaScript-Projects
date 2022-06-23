@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: rgb(200, 237, 224); */
+  background-image: linear-gradient(135deg, #07071b, rgb(54, 3, 42));
+}
+nav {
+  font-family: "Playfair Display", serif;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  height: 65px;
+  background-color: rgb(14, 9, 62);
+  color: white;
+  align-items: center;
+}
+nav ul li {
+  padding: 0 19px;
+  font-size: 1rem;
+}
+nav ul li:not(:first-child){
+  cursor: pointer;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+.brand img {
+  width: 45px;
+  margin-right: 10px;
+}
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: "PT Serif", serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 15px;
+  background-image: url("wp1947541.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: column;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 5, 40);
+  color: white;
+  flex-direction: column;
+  margin: 12px 0;
+  margin-bottom: -10px;
+}
+.icons {
+  margin-top: 15px;
+}
+.icons i {
+  cursor: pointer;
+  margin: 0 7px;
+}
+#myProgressBar {
+  width: 75vw;
+  cursor: pointer;
+}
+.heading h1 {
+  text-align: center;
+  color: rgb(224, 203, 203);
+  text-transform: uppercase;
+}
+.songItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #07071b;
+  height: 55px;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  margin: 12px 0;
+  font-size: larger;
+}
+.songItems .name,
+.songInfo span {
+  background-image: linear-gradient(45deg, #65205b, #00b9ff);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.songItems img {
+  margin-left: 10px;
+}
+
+.songItemPlay i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 12.1vw;
+  font-size: 1.2em;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #07071b;
+  padding: 8px;
+  border-radius: 10px;
+}
+.songInfo span {
+  margin-left: 10px;
+  font-family: "Playfair Display", serif;
+}
+#playingGif{
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+}
+.playingGif1{
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+  margin-right: 10px;
+}
+.miniplay{
+  display: flex;
+  align-items: center;
+}
+
+#playingGif:hover{
+  opacity: 1;
+}
+.playingGif1:hover{
+  opacity: 1;
+}
+.songItemPlay{
+  margin: 0 10px;
+  cursor: pointer;
+}
